@@ -1,37 +1,40 @@
-# 🌐 AI-Powered Multi-Language Translator
+# 🌐 AI Multi-Language Translator
 
-This project is an AI-based multi-language translator that supports translation between *five languages* — English, Hindi, Spanish, French, and German. It uses *Natural Language Processing (NLP)* and *transformer-based models* for context-aware and grammatically correct translations.
+This is a web-based multilingual translator app built using Gradio and Hugging Face Transformers. It supports translation between Indian languages like Hindi, Marathi, Gujarati, Bengali, and English.
 
----
+## 🚀 Live Demo on Hugging Face
 
-# Technologies Used
+👉 [Click here to use the live app](https://huggingface.co/spaces/Shubhampal2002/AI_Multi_Language_Translator)
 
-- Python
-- Google Colab
-- Hugging Face Transformers
-- NLP (Natural Language Processing)
+## 📘 Description
 
----
+This app uses the **IndicTrans2** model (`ai4bharat/indictrans2-en-indic-1B`) for high-quality translations between Indian languages.
 
-# Features
+Gradio is used for creating the web interface, and the entire app is deployed on **Hugging Face Spaces**.
 
-Translate text between 5 major languages
-Context-aware, semantically accurate translation
-Easy-to-use interface (Colab-based)
-Scalable for adding features like voice input/output
+## 🧠 Model & Tools Used
 
-# File Info
+- `transformers`
+- `torch`
+- `gradio`
+- `IndicTrans2` (by AI4Bharat)
 
-- Shubh_AI_Multi_Language_Translator.ipynb: Main Colab notebook containing the translation model and code.
+## 🗂️ Project Files
 
----
+| File | Description |
+|------|-------------|
+| `Shubh_Pal_AI_Multi_Language_Translator.ipynb` | Notebook used for development |
+| `app.py` | Python script for Hugging Face deployment |
+| `requirements.txt` | List of required Python packages |
 
-# How to Use
+## 🛠️ How to Run Locally
 
-1. Open the .ipynb notebook in Google Colab.
-2. Run all cells step-by-step.
-3. Input the source text and select source/target languages.
-4. View the translated output.
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+pip install -r requirements.txt
+python app.py
+
 
 ---
 
